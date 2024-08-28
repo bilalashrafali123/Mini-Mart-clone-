@@ -1,0 +1,63 @@
+.bg{
+    background-color: black;
+    height: 55px;
+}
+
+.font{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hovered:hover{
+    color: orange;
+}
+
+.color{
+    color: white;
+}
+
+.span{
+    color: orange;
+}
+
+.nav-text{
+    transform: translateY(-45px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.drop{
+    transform: translateY(-40px);
+    color: white;
+ 
+    
+}
+
+
+
+.head-2{
+    display: block;
+}
+ 
+#shareButton{
+    display: none;
+}
+/* Navbar Responsive Area Started */
+
+
+
+
+@media (max-width: 975px) {
+    #shareButton{
+        display: block;
+    }
+    .head-2{
+        display: none;
+    }
+}
