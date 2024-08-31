@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .bg{
     background-color: black;
     height: 55px;
-   display: none;
+    display: block;
 }
 
 .font{
@@ -29,11 +34,6 @@
     cursor: pointer;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
 .hovered:hover{
@@ -82,6 +82,10 @@
     display: none;
 }
 
+.bg-2{
+    display: none;
+}
+
 
 /* Navbar Responsive Area Started */
 
@@ -108,5 +112,12 @@
 
 
 @media (max-width : 766px){
-   
+   .bg{
+    display: none;
+   }
+   .bg-2{
+    display: block;
+    transform: translateY(-40px);
+
+   }
 }
