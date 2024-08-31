@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .bg{
@@ -52,7 +53,6 @@
 
 .nav-text{
     transform: translateY(-45px);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .drop{
@@ -92,7 +92,14 @@
     width: 100%;
 }
 
+.point{
+    cursor: pointer;
+}
 
+.fonted{
+font-size: 30.667px;
+
+}
 
 /* Navbar Responsive Area Started */
 
