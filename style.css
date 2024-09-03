@@ -55,9 +55,12 @@
     transform: translateY(-45px);
 }
 
+.text-color{
+    color: rgb(131, 129, 129);
+}
 
 .nav-texts{
-    transform: translateY(-32rem);
+    transform: translateY(-28rem);
 }
 
 .drop{
@@ -125,6 +128,146 @@ font-size: 30.667px;
     }
 }
 
+body {
+    /* font-family: Arial, sans-serif; */
+    /* background-color: #f8f8f8; */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    width: 400px;
+}
+
+.daily-deals h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.daily-deals p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.time-box {
+    text-align: center;
+}
+
+.time {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    color: #888;
+}
+
+.product-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff0000;
+    margin: 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 16px;
+}
+
+.description {
+    margin: 20px 0;
+    color: #666;
+}
+
+.sizes ul, .colors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sizes ul li, .colors ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.green { background-color: #28a745; }
+.gray { background-color: #6c757d; }
+.brown { background-color: #8b4513; }
+.lightblue { background-color: #17a2b8; }
+.white { background-color: #ffffff; }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-to-cart, .buy-now {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #333;
+
+    
+    
+
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+}
+
+.buy-now {
+  
+    color: #fff;
+}
 
 
 @media (max-width : 770px){
@@ -142,6 +285,7 @@ font-size: 30.667px;
    .bg-2{
     display: block;
     transform: translateY(-40px);
+    margin-top: 20px;
 
    }
 }
