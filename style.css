@@ -494,7 +494,7 @@ body {
 
 
 
-@media (max-width : 766px){
+@media (max-width : 680px){
    .bg{
     display: none;
    }
@@ -502,6 +502,9 @@ body {
     display: block;
     transform: translateY(-40px);
     margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    z-index: auto;
 
    }
 }
