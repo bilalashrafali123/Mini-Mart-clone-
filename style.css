@@ -494,17 +494,118 @@ body {
 
 
 
-@media (max-width : 680px){
+@media (max-width : 640px){
    .bg{
     display: none;
    }
-   .bg-2{
+    .bg-2{
     display: block;
-    transform: translateY(-40px);
-    margin-top: 20px;
-    display: flex;
-    justify-content: end;
-    z-index: auto;
+
+   
+    
 
    }
+
+
+} 
+
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.subscribe-section {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.subscribe-section input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.subscribe-section input {
+    padding: 10px 20px;
+    
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.position{
+    position: absolute;
+    position: sticky;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+      text-align: center;
+
+    }
+
+    .subscribe-section input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-section input[type="submit"] {
+        width: 100%;
+    }
 }
