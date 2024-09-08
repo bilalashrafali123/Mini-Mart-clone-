@@ -16,6 +16,19 @@
 .pointer{
     cursor: pointer;
 }
+
+.black{
+    background-color: #adadad;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    float: inline-start;
+}
 .bg-dark{
     background-color: black;
 }
@@ -41,7 +54,9 @@
     color: gray;
 }
 
-
+.background{
+    background-color: rgb(218, 229, 239);
+}
 .mid{
     transform: translateY(-20px);
 }
