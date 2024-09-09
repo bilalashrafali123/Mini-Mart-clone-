@@ -103,6 +103,22 @@
     margin-right: 30rem;
 }
   
+.sized{
+    padding: 10px;
+    width: 25rem;
+}
+.heights{
+    height: 220px;
+}
+
+.hovering:hover{
+    border: 1px solid rgb(255, 181, 45);
+}
+
+.sizes{
+    padding: 10px;
+    width: 40rem;
+}
 
 
 .input{
@@ -143,6 +159,9 @@ font-size: 30.667px;
     width: 90px;
 }
 
+.colored{
+    background-color: rgb(251, 171, 24);
+}
 
 
 
